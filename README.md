@@ -45,6 +45,23 @@ Run the chatbot:
 streamlit run app.py
 
 
+## Chunking Strategy
+
+Legal documents are split using a RecursiveCharacterTextSplitter with chunk size 500 and overlap 50.  
+This ensures legal clauses remain semantically meaningful while improving retrieval accuracy.
+
+## Retrieval Strategy
+
+The system uses similarity search over ChromaDB to retrieve the top-4 most relevant chunks for a user query.
+
+This allows the chatbot to answer questions that span multiple sections of the Bharatiya Nyaya Sanhita.
+
+## Model
+
+Generation is performed using the open-weight model Qwen2-0.5B from HuggingFace.
+
+
+
 
 ## Example queries
 
