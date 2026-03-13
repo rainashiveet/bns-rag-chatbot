@@ -1,4 +1,4 @@
-\# BNS Legal Research RAG Chatbot
+# BNS Legal Research RAG Chatbot
 
 
 
@@ -6,27 +6,27 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot over the 
 
 
 
-\## Features
+## Features
 
-\- RAG pipeline over legal documents
+- RAG pipeline over legal documents
 
-\- Local vector database (Chroma)
+- Local vector database (Chroma)
 
-\- Sentence-transformer embeddings
+- Sentence-transformer embeddings
 
-\- Open-weight LLM (Qwen2-0.5B)
+- Open-weight LLM (Qwen2-0.5B)
 
-\- Streamlit interface
+- Streamlit interface
 
 
 
-\## Architecture
+## Architecture
 
 PDF → Chunking → Embeddings → Vector DB → Retriever → LLM → Answer
 
 
 
-\## Run locally
+## Run locally
 
 
 
@@ -46,11 +46,11 @@ streamlit run app.py
 
 
 
-\## Example queries
+## Example queries
 
 
 
-\- What is punishment for murder under BNS?
+- What is punishment for murder under BNS?
 
 \- Difference between murder and culpable homicide?
 
